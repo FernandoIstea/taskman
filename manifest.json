@@ -2,7 +2,7 @@
     "name": "Gestor de Tareas",
     "short_name": "Tareas",
     "description": "Una aplicación para gestionar tareas",
-    "start_url": "/",
+    "start_url": "index.html",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#4e4caf",
