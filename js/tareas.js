@@ -49,6 +49,7 @@ function cargarNuevaTarea() {
                                    })
                         .then(response => response.json())
                         .then(()=> recuperarTareas())
+                        .then(()=> inputTarea.value = "")
     }
 }
 
