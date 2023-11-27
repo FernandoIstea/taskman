@@ -8,17 +8,17 @@
     "theme_color": "#4e4caf",
     "icons": [
       {
-        "src": "/images/task-64.png",
+        "src": "images/task-64.png",
         "sizes": "64x64",
         "type": "image/png"
       },
       {
-        "src": "/images/task-196.png",
+        "src": "images/task-196.png",
         "sizes": "196x196",
         "type": "image/png"
       },
       {
-        "src": "/images/task-512.png",
+        "src": "images/task-512.png",
         "sizes": "512x512",
         "type": "image/png"
       }
