@@ -35,6 +35,7 @@ function cargarNuevaTarea() {
 
     if (!navigator.onLine) {
         console.error("No puedes agregar una tarea, porque has perdido conexión.")
+        return 
     }
 
     if (inputTarea.value.trim() !== "") {
