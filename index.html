@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gestor de tareas</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="manifest.json">
+    <link rel="shortcut icon" href="images/task-64.png" type="image/png">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="upup.sw.min.js"></script>
+    <script src="upup.min.js"></script>
+    <script defer src="js/tareas.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Gestor de Tareas</h1>
+    </header>
+    <main>
+        <div class="add-task-container">
+            <input type="text" id="taskInput" placeholder="Ingresa una nueva tarea">
+            <button id="addTaskBtn">Agregar</button>
+        </div>
+        <div class="tasks-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Descripción</th>
+                        <th>Completada</th>
+                        <th>Eliminar</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Descripción de la tarea</td>
+                        <td><input type="checkbox"></td>
+                        <td><button class="button-delete">🗑️</button></td>
+                    </tr>                    
+                </tbody>
+            </table>
+        </div>
+    </main>
+</body>
+</html>
