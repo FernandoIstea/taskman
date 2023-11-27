@@ -101,7 +101,7 @@ window.addEventListener("offline", ()=> {
 window.addEventListener("online", ()=> location.reload() )
 
 UpUp.start({
-    'content-url': '/index.html',
-    'assets': ['/images/task-64.png', '/js/tareas.js', '/css/styles.css', '/index.html', '/upup.min.js', '/upup.sw.min.js', '/manifest.json'],
+    'content-url': 'index.html',
+    'assets': ['images/task-64.png', 'js/tareas.js', 'css/styles.css', 'index.html', 'upup.min.js', 'upup.sw.min.js', 'manifest.json'],
     'service-worker-url': '/upup.sw.min.js'
 })
